@@ -3,7 +3,7 @@
 
 ### Chapter Role :
 
-- This chapter aim to define different concepts in distributed systems (background) and how to model them the discussed concepts have to be understood so we can follow the next chapters where contributions are made
+- This chapter aim to define different concepts in distributed systems (background), how to model them the discussed concepts have to be understood so we can follow the next chapters where contributions are made
 
 ### Main Goal :
 
@@ -32,7 +32,7 @@ Computing resources interconnected by networks.
 
 
 ##### *  Life-cycle of a distributed App : 
-life cycle of a piece of software is the set of configurations of this app as well as configurations changing. Each module have a life-cycle → the life cycle of different modules in one distributed app are dependents; We model life cycles using state machine ( in this work basic state machine, Petri and UML are introduced) [_Exercises about modeling are needed here_]
+life cycle of a piece of software is the set of configurations of this app as well as configurations changing. Each module have a life-cycle → the life cycle of different modules in one distributed app are dependents; We model life cycles using state machine ( in this work basic state machine, Petri and UML are introduced) 
 
   
 ##### *  Reconfig of Distributed Apps : 
@@ -42,7 +42,7 @@ Changing the config of an app ( interacting its life-cycle )
 > Common types of reconfigs : Deployment, Scaling, Update, Migration
 
 > Autonomic computing : Giving a system the capability to change and adapt to an environment.
-It includes Monitoring, decision making and the execution of changes ( known autonomic computing model MAPE-K [IBM 2003] )
+It includes Monitoring, decision making and the execution of changes ( known autonomic computing model MAPE-K )
 
   
 ##### *  Parallelism in Reconfig :

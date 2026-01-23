@@ -2,6 +2,8 @@ LLM, DevSecOps, Cloud Security
 
 **Short overview**
 
+# [***GenSIaC: Toward Security-Aware Infrastructure-as-Code Generation with Large Language Models***](https://arxiv.org/abs/2511.12385)
+
 The authors build an instruction-tuning dataset, GenSIaC, that explicitly teaches models to recognize common IaC security weaknesses during generation and inspection. With lightweight LoRA fine-tuning,.
 
 

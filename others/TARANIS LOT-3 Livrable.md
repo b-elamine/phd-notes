@@ -71,8 +71,3 @@ PrEstoCloud uniquely supports automatic service composition.
 ---
 
 ## Research Gaps
-- Declarative, intent-based application descriptions
-- Automated service selection and placement
-- End-to-end cloud–edge–IoT orchestration
-- Runtime adaptation under uncertainty
-- Stronger transition from research to industry

@@ -1,5 +1,5 @@
 
-## ** Towards AI-driven Framework of Automating Security Orchestration in Clouds **
+## ***Towards AI-driven Framework of Automating Security Orchestration in Clouds***
 
 ### Goal of the Paper : 
 Creating a framework that automatically and dynamically secure deployment in clouds in two ways : infra hardening, and post-deployment threat detection 

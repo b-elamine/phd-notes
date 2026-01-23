@@ -1,4 +1,4 @@
-## Draft Notes (basic structure understanding) :
+## Draft Notes :
 
 * Exclusion : 
 * software packages management (no distributed sys support and remote dependecies), 
