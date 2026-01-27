@@ -38,6 +38,8 @@ A survey that addresses the SoTA of ***cloud security*** ( properties, technique
 >    - *Service Level Agreement (SLA) : Contract between clients and service providers, regulating interactions*
 >    - *Conclusion : Mainly general purpose assurance techniques rather than focusing on specific security aspects*
 
+
+
 >**Next gen cloud sec and assurance :** 
 >    - *Good solution = balancing control of sec and assurance of cloud between providers and customers(tenants in general)*
 >    - *Increased cloud transparency = better security management*
