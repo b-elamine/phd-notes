@@ -11,7 +11,8 @@ A survey that addresses the SoTA of ***cloud security*** ( properties, technique
 
 > *Taxonomy* :  three Categories in fig below and the 4 dimensions technique (***when*** (timeline of the solution), ***what*** (which property addressed), ***where*** (attack surface) and ***how*** (how they increase sec) coordinates)
 > 
-![[src/Screenshot from 2026-01-26 14-39-14.png]]
+![Taxonomy figure](../src/Screenshot%20from%202026-01-26%2014-39-14.png)
+
 
 >**Vulnerabilities, threats and attacks*** : 
 >   - *App-Level : target mainly interaction user-services focus on SaaS*
