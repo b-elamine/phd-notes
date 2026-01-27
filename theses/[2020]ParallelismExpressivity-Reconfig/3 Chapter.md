@@ -1,4 +1,7 @@
-## Draft Notes :
+
+# Chapter 3 : Reconfig of Distributed Systems : State of the Art
+
+## First-pass Notes :
 
 * Exclusion : 
 * software packages management (no distributed sys support and remote dependecies), 
@@ -31,10 +34,8 @@ Using components-based approach to detail the life cycle of modules, components 
 
 Jade, Tune, DeployWare, Adage, SmartFrog, Engage, Aeolus. 
 
-
-# Chapter 3 : Reconfig of Distributed Systems : State of the Art
-
-
+---
+# Deeper Notes : 
 ### Chapter Role :
 
 - This chapter presented two types of  existing solutions addressing reconfiguration : CM tools and Control components models, then compared them to see strength and weaknesses using different analysis criteria 
@@ -45,7 +46,7 @@ Jade, Tune, DeployWare, Adage, SmartFrog, Engage, Aeolus.
 
 ### Introduced Concepts :
 
-Draft notes above contains key concepts presented in this state of the art chapter.
+First-pass notes above contains key concepts presented in this state of the art chapter.
 
 ### Model / mechanism :
 

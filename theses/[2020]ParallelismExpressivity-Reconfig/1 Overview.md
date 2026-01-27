@@ -1,14 +1,15 @@
+# [Reconciling parallelism expressivity and separation of concerns in reconfiguration of distributed systems](https://theses.hal.science/tel-03230476v1)
 # Thesis Description Bullets :
 
 - Complexity of deploying and re-configuring distributed systems because of the interaction between all the modules
 
 - Deployment is seen as specific case of reconfiguration in the thesis
 
-- Existing solution generally ensure 2/3 properties [1] ( genericity, parallelism expressivity, separation of concerns)
+- Existing solution generally ensure 2/3 properties ( genericity, parallelism expressivity, separation of concerns)
 
 - The work focus on the execute and knowledge part of (the common loop of autonomic computing (MAPE-K)
 
-- It is possible to reconcile the three properties [1] in one framework / solution
+- It is possible to reconcile the three properties in one framework / solution
 
 # Research Goal :
 
