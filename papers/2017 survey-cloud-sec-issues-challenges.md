@@ -28,6 +28,9 @@ Finally a discussion about the open research issues for cloud security.
 	
 	![Table 2](../src/2017cloudSecIssuesChallenges-2.png)
 	
-	-  Data center Security :     
+	-  Data center Security :  Physical security is fundamental (secure buildings, protected servers..), services and storage is secure by firewalls, IPSec, IDS/IPS, honeyports, SOC, CSIRT, SIEM for : traffic analysis, intrusion detection, event correlation and incident response.
 
-- ***Cloud Sec Issues***: 
+- ***Cloud Sec Issues***: this section's goal is categorizing sec issues into 8 categories each category have topics. Each topic presents the related security issues and their solutions. Then for every category we have a comprehensive table presenting topics, related issues, papers addressing the topic and the security solution. 
+	
+	![Security issues categories](../src/2017cloudSecIssuesChallenges-3.png)
+	
