@@ -8,14 +8,15 @@ Finally a discussion about the open research issues for cloud security.
 
 ***Cloud Computing architectural framework***, 
 	***NIST*** defined 3 service models, 5 characteristics and 4 deployment models in.
-		-***Characteristics***: On-demand self service, broad network access,  resource pooling, rapid elasticity, measured service
-		-***Service Models***: SaaS, IaaS, PaaS 
-		-***Deployment models***: Private, public, communiry, hybrid cloud
-	***Storage Models***: how to store data in cloud, 3 models with benefits and limitations
+		-***Characteristics***: On-demand self service, broad network access,  resource pooling, rapid elasticity, measured service  
+		-***Service Models***: SaaS, IaaS, PaaS   
+		-***Deployment models***: Private, public, communiry, hybrid cloud  
+	***Storage Models***: how to store data in cloud, 3 models with benifits and limitations   
 		***Shared File/ Block Storage System***, ***Object Storage System***, ***DB storage system***
-	 
+
+
 ***Cloud Technology***, is the set of technologies that enables key features and characteristics cited above. These techs  are defined in this section. (Internet, data-centers, virtualization, web tech, multi-tenant tech and service tech)
 
-***Cloud Security***, 
+***Cloud Security*** 
 
 
