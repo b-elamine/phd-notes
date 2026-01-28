@@ -33,4 +33,9 @@ Finally a discussion about the open research issues for cloud security.
 - ***Cloud Sec Issues***: this section's goal is categorizing sec issues into 8 categories each category have topics. Each topic presents the related security issues and their solutions. Then for every category we have a comprehensive table presenting topics, related issues, papers addressing the topic and the security solution. 
 	
 	![Security issues categories](../src/2017cloudSecIssuesChallenges-3.png)
-	
+
+- ***Open issues, conclusion***: 
+	- Major open issue : design intensive and integrated security fulfilling major sec requirements
+	- Sec and Privacy in multi-tenancy one of the most open issues
+	- Heterogeneity of services and dynamic nature make access control more complexe
+	- Privacy in the computation phase is an open issue as well 
