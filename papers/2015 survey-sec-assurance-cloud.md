@@ -7,7 +7,7 @@ A survey that addresses the SoTA of ***cloud security*** ( properties, technique
 - *Selection Criteria* : ***Coverage*** (sec of all levels of cloud, all security requirements), ***Actionability*** (what can be really produced), ***Timeliness*** (Up to date nearly a decade), ***Quality*** (Favoring papers in ACM, IEEE and Elsevier) 
 - *Taxonomy* :  three Categories in fig below and the 4 dimensions technique (***when*** (timeline of the solution), ***what*** (which property addressed), ***where*** (attack surface) and ***how*** (how they increase sec) coordinates)
  
-![Taxonomy figure](../src/Screenshot%20from%202026-01-26%2014-39-14.png)
+![Taxonomy figure](2015cloudSecAssurance.png)
 
 - **Vulnerabilities, threats and attacks*** : 
 	- *App-Level : target mainly interaction user-services focus on SaaS*

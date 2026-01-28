@@ -17,6 +17,17 @@ Finally a discussion about the open research issues for cloud security.
 
 - ***Cloud Technology***, is the set of technologies that enables key features and characteristics cited above. These techs  are defined in this section. (Internet, data-centers, virtualization, web tech, multi-tenant tech and service tech)
 
-- ***Cloud Security*** 
+- ***Cloud Security*** in this paper is addressed in 5 parts : 
+	- Cloud Sec Concepts : 12 concepts presented such as (threat agent, security controls,..)
+	- Requirements of cloud sec : authentication/identiﬁcation, authorization, conﬁdentiality, integrity, non-repudiation and availability
+	- Threats to cloud : 9 threats summarized in table below 
+	
+	![Table 1](../src/2017cloudSecIssuesChallenges-1.png)
+	
+	- Attacks on cloud sec : 9 attacks summarized in table below
+	
+	![Table 2](../src/2017cloudSecIssuesChallenges-2.png)
+	
+	-  Data center Security :     
 
-
+- ***Cloud Sec Issues***: 
