@@ -37,5 +37,5 @@ Finally a discussion about the open research issues for cloud security.
 - ***Open issues, conclusion***: 
 	- Major open issue : design intensive and integrated security fulfilling major sec requirements
 	- Sec and Privacy in multi-tenancy one of the most open issues
-	- Heterogeneity of services and dynamic nature make access control more complexe
+	- Heterogeneity of services and dynamic nature make access control more complex
 	- Privacy in the computation phase is an open issue as well 
