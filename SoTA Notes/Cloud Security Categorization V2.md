@@ -6,8 +6,8 @@
 - Every attack or problem targets easily a specific layer
 
 ### Schema : 
-#### Layer 1 : Physical & Infrastructure Security : 
-***Concerns the hardware, data centers and physical resources.***
+#### Layer 1 : Infrastructure Security : 
+***Concerns the hardware, data centers and physical and virtual resources.***
 Threats that target the physical or virtual foundation of the cloud, including servers, storage, and networking hardware
 - Hardware failures
 - Physical unauthorized access
@@ -60,3 +60,7 @@ Threats arising from human behavior, poor management, lack of policies, or regul
 - Compliance violations
 - Social engineering
 - Poor security policies
+
+### Example : Attacks/Threats, Countermeasures organized by layers
+
+![Table 1|697](../src/diagram.png)
