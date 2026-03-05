@@ -147,89 +147,49 @@
 
 # References
 
-**[1]** Abdul Azim Ahmed Ali, 
-“Virtual Machine Escapes” _Technical Article_, 2013
-**[2]** Daniel Perez-Botero, Jakub Szefer, Ruby B. Lee  
-_“Characterizing Hypervisor Vulnerabilities in Cloud Computing Servers”_  ACM Computing Surveys, 2013.
-**[3]** Thomas Ristenpart, Eran Tromer, Hovav Shacham, Stefan Savage  
-_“Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds”_ ACM CCS, 2009.
-**[4]** Yinqian Zhang, Ari Juels, Michael K. Reiter, Thomas Ristenpart  
-_“Cross-VM Side Channels and Their Use to Extract Private Keys”_  ACM CCS, 2012.
-**[5]** Sven Bugiel, Stefan Nürnberger, Thomas Pöppelmann, Ahmad-Reza Sadeghi  
-_“Twin Clouds: An Architecture for Secure Cloud Computing”_  EuroSys Workshop, 2011.
-**[6]** Jinpeng Wei, Xiaolan Zhang, Glenn Ammons, Vasanth Bala, Peng Ning  
-_“Managing Security of Virtual Machine Images in a Cloud Environment”_  ACM CCS, 2009.
-**[7]** Joanna Rutkowska  
-_“Subverting Vista Kernel for Fun and Profit”_  Black Hat USA, 2006. (Blue Pill rootkit introduction)
-**[8]** Nuno Santos, Krishna P. Gummadi, Rodrigo Rodrigues  
-_“Towards Trusted Cloud Computing”_  HotCloud, 2009.
-**[9]** Joseph Idziorek, Mark Tannian  
-_“Exploiting Cloud Utility Models for Profit and Ruin”_  IEEE CloudCom, 2011. (EDoS discussion)
-**[10]** Tal Garfinkel et al.  
-_“The Security Implications of Virtualization: A Survey”_  HotCloud, 2010.
-**[11]** Hai Jin, Xuanhua Shi, Song Wu  
-_“On the Security of Virtual Networking in Cloud Computing”_  IEEE Cloud, 2013.
-**[13]** Diego Kreutz et al.  
-_“Software-Defined Networking: A Comprehensive Survey”_  ACM SIGCOMM Computer Communication Review, 2015.
-**[14]** Wei Wang et al.  
-_“Anomaly Detection in Software-Defined Networking: A Survey”_  IEEE Communications Surveys & Tutorials, 2014.
-**[16]** Joel Reardon et al.  
-_“Secure Data Deletion in the Cloud”_  USENIX FAST, 2013.
-**[17]** Emil Stefanov et al.  
-_“Path ORAM: An Extremely Simple Oblivious RAM Protocol”_  ACM CCS, 2013.
-**[18]** Arvind Narayanan, Vitaly Shmatikov  
-_“De-anonymizing Social Networks”_  IEEE Symposium on Security and Privacy, 2009.
-**[19]** Craig Gentry  
-_“Fully Homomorphic Encryption Using Ideal Lattices”_  STOC, 2009.
-**[20]** Amit Sahai, Brent Waters  
-_“Fuzzy Identity-Based Encryption”_  EUROCRYPT, 2005. (Foundation of ABE)
-**[21]** NIST  
-_“NIST Special Publication 800-57: Recommendation for Key Management”_
-**[22]** Kresimir Popovic, Zeljko Hocenski  
-_“Cloud Computing Security Issues and Challenges”_  MIPRO, 2010.
-**[23]** Daniel Fett, Ralf Küsters, Guido Schmitz  
-_“A Comprehensive Formal Security Analysis of OAuth 2.0”_  ACM CCS, 2016.
-**[24]** Daniel Fett, Ralf Küsters, Guido Schmitz  
-_“The Web SSO Standard OpenID Connect: In-depth Formal Security Analysis and Security Guidelines”_IEEE Security & Privacy, 2017.
-**[25]** John R. Douceur  
-_“The Sybil Attack”_  IPTPS, 2002.
-**[26]** Adam Barth, Collin Jackson, John C. Mitchell  
-_“Robust Defenses for Cross-Site Request Forgery”_  IEEE Security & Privacy, 2008.
-**[27]** Marco Guarnieri et al.  
-_“OAuth 2.0 Security in the Wild”_  IEEE Security & Privacy, 2017.
-**[28]** Joseph Bonneau et al.  
-_“The Quest to Replace Passwords: A Framework for Comparative Evaluation of Web Authentication Schemes”_  IEEE Security & Privacy, 2012.
-**[29]** Scott Rose et al.  
-_“Zero Trust Architecture”_  NIST SP 800-207, 2020.
-**[30]** Fadi Aloul et al.  
-_“Two Factor Authentication Using Mobile Phones”_  IEEE AICCSA, 2009.
-**[31]** Michael McIntosh, Paula Austel  
-_“XML Signature Element Wrapping Attacks and Countermeasures”_  IEEE Security & Privacy, 2005.
-**[32]** Shweta Sharma, 
-“Hackers Target SSRF Flaws to Steal AWS Credentials”, CSO Online, 2025
-**[33]** Chris Frohoff, Gabriel Lawrence  
-_“Marshalling Pickles: How Deserializing Objects Can Ruin Your Day”_  AppSec California, 2015.
-**[34]** Cagri Varol et al.  
-_“Cloud-Based Cryptomining: Attacks and Countermeasures”_  IEEE BigData, 2018.
-**[35]** Aleksa Sarai et al.  
-_“runC Container Escape Vulnerability (CVE-2019-5736)”_  USENIX Security, 2019 (technical analyses).
-**[36]** Gary McGraw  
-_“Software Security”_  IEEE Security & Privacy, 2006.
-**[37]** OWASP  
-_“OWASP API Security Top 10”_
-**[38]** Michael Backes et al.  
-_“Automated Security Analysis of Cloud Infrastructure”_  ACM CCS, 2014.
-**[39]** Miltiadis Kandias et al.  
-_“Proactive Insider Threat Detection Through Social Media and Behavioral Analysis”_  IEEE TIFS, 2010.
-**[41]** Gartner  
-_“IT Risk Management and Shadow IT”_  Industry Report, 2017.
-**[42]** ENISA  
-_“Cloud Security and Resilience: Compliance and Legal Aspects”_  ENISA Report, 2018.
-**[43]** Guy Zyskind, Oz Nathan, Alex Pentland  
-_“Decentralizing Privacy: Using Blockchain to Protect Personal Data”_  IEEE Security & Privacy Workshops, 2015.
-**[44]** Keiko Hashizume et al.  
-_“An Analysis of Security Issues for Cloud Computing”_  Journal of Cloud Computing, 2013.
-**[45]** Eli Ben-Sasson et al.  
-_“Zerocash: Decentralized Anonymous Payments from Bitcoin”_  IEEE Security & Privacy, 2014.
+# References
+
+1. Abdul Azim Ahmed Ali, _“Virtual Machine Escapes”_, Technical Article, 2013.
+2. Daniel Perez-Botero, Jakub Szefer, Ruby B. Lee, _“Characterizing Hypervisor Vulnerabilities in Cloud Computing Servers”_, ACM Computing Surveys, 2013.
+3. Thomas Ristenpart, Eran Tromer, Hovav Shacham, Stefan Savage, _“Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds”_, ACM CCS, 2009.
+4. Yinqian Zhang, Ari Juels, Michael K. Reiter, Thomas Ristenpart, _“Cross-VM Side Channels and Their Use to Extract Private Keys”_, ACM CCS, 2012.
+5. Sven Bugiel, Stefan Nürnberger, Thomas Pöppelmann, Ahmad-Reza Sadeghi, _“Twin Clouds: An Architecture for Secure Cloud Computing”_, EuroSys Workshop, 2011.
+6. Jinpeng Wei, Xiaolan Zhang, Glenn Ammons, Vasanth Bala, Peng Ning, _“Managing Security of Virtual Machine Images in a Cloud Environment”_, ACM CCS, 2009.
+7. Joanna Rutkowska, _“Subverting Vista Kernel for Fun and Profit”_, Black Hat USA, 2006. (Blue Pill rootkit introduction)
+8. Nuno Santos, Krishna P. Gummadi, Rodrigo Rodrigues, _“Towards Trusted Cloud Computing”_, HotCloud, 2009.
+9. Joseph Idziorek, Mark Tannian, _“Exploiting Cloud Utility Models for Profit and Ruin”_, IEEE CloudCom, 2011. (EDoS discussion)
+10. Tal Garfinkel et al., _“The Security Implications of Virtualization: A Survey”_, HotCloud, 2010.
+11. Hai Jin, Xuanhua Shi, Song Wu, _“On the Security of Virtual Networking in Cloud Computing”_, IEEE Cloud, 2013.
+12. Diego Kreutz et al., _“Software-Defined Networking: A Comprehensive Survey”_, ACM SIGCOMM Computer Communication Review, 2015.
+13. Wei Wang et al., _“Anomaly Detection in Software-Defined Networking: A Survey”_, IEEE Communications Surveys & Tutorials, 2014.
+14. Joel Reardon et al., _“Secure Data Deletion in the Cloud”_, USENIX FAST, 2013.
+15. Emil Stefanov et al., _“Path ORAM: An Extremely Simple Oblivious RAM Protocol”_, ACM CCS, 2013.
+16. Arvind Narayanan, Vitaly Shmatikov, _“De-anonymizing Social Networks”_, IEEE Symposium on Security and Privacy, 2009.
+17. Craig Gentry, _“Fully Homomorphic Encryption Using Ideal Lattices”_, STOC, 2009.
+18. Amit Sahai, Brent Waters, _“Fuzzy Identity-Based Encryption”_, EUROCRYPT, 2005. (Foundation of ABE)
+19. NIST, _“NIST Special Publication 800-57: Recommendation for Key Management”_.
+20. Kresimir Popovic, Zeljko Hocenski, _“Cloud Computing Security Issues and Challenges”_, MIPRO, 2010.
+21. Daniel Fett, Ralf Küsters, Guido Schmitz, _“A Comprehensive Formal Security Analysis of OAuth 2.0”_, ACM CCS, 2016.
+22. Daniel Fett, Ralf Küsters, Guido Schmitz, _“The Web SSO Standard OpenID Connect: In-depth Formal Security Analysis and Security Guidelines”_, IEEE Security & Privacy, 2017.
+23. John R. Douceur, _“The Sybil Attack”_, IPTPS, 2002.
+24. Adam Barth, Collin Jackson, John C. Mitchell, _“Robust Defenses for Cross-Site Request Forgery”_, IEEE Security & Privacy, 2008.
+25. Marco Guarnieri et al., _“OAuth 2.0 Security in the Wild”_, IEEE Security & Privacy, 2017.
+26. Joseph Bonneau et al., _“The Quest to Replace Passwords: A Framework for Comparative Evaluation of Web Authentication Schemes”_, IEEE Security & Privacy, 2012.
+27. Scott Rose et al., _“Zero Trust Architecture”_, NIST SP 800-207, 2020.
+28. Fadi Aloul et al., _“Two Factor Authentication Using Mobile Phones”_, IEEE AICCSA, 2009.
+29. Michael McIntosh, Paula Austel, _“XML Signature Element Wrapping Attacks and Countermeasures”_, IEEE Security & Privacy, 2005.
+30. Shweta Sharma, _“Hackers Target SSRF Flaws to Steal AWS Credentials”_, CSO Online, 2025.
+31. Chris Frohoff, Gabriel Lawrence, _“Marshalling Pickles: How Deserializing Objects Can Ruin Your Day”_, AppSec California, 2015.
+32. Cagri Varol et al., _“Cloud-Based Cryptomining: Attacks and Countermeasures”_, IEEE BigData, 2018.
+33. Aleksa Sarai et al., _“runC Container Escape Vulnerability (CVE-2019-5736)”_, USENIX Security, 2019. (technical analyses)
+34. Gary McGraw, _“Software Security”_, IEEE Security & Privacy, 2006.
+35. OWASP, _“OWASP API Security Top 10”_.
+36. Michael Backes et al., _“Automated Security Analysis of Cloud Infrastructure”_, ACM CCS, 2014.
+37. Miltiadis Kandias et al., _“Proactive Insider Threat Detection Through Social Media and Behavioral Analysis”_, IEEE TIFS, 2010.
+38. Gartner, _“IT Risk Management and Shadow IT”_, Industry Report, 2017.
+39. ENISA, _“Cloud Security and Resilience: Compliance and Legal Aspects”_, ENISA Report, 2018.
+40. Guy Zyskind, Oz Nathan, Alex Pentland, _“Decentralizing Privacy: Using Blockchain to Protect Personal Data”_, IEEE Security & Privacy Workshops, 2015.
+41. Keiko Hashizume et al., _“An Analysis of Security Issues for Cloud Computing”_, Journal of Cloud Computing, 2013.
+42. Eli Ben-Sasson et al., _“Zerocash: Decentralized Anonymous Payments from Bitcoin”_, IEEE Security & Privacy, 2014.
 
 ---
