@@ -30,7 +30,7 @@
 # Layer 2  Network & Communication Security
 **Concerns data in transit and cloud networking infrastructure.**
 
-## Advanced Attacks
+## Attacks / Threats
 
 - **EDoS (Economic Denial of Sustainability)**  
   Triggering auto-scaling to financially exhaust cloud consumers. [9]
@@ -56,7 +56,7 @@
 # Layer 3  Data Protection & Privacy
 **Concerns confidentiality, integrity, and privacy of stored and processed data.**
 
-## Advanced Attacks
+## Attacks/ Threats
 
 - **Cross-Tenant Data Leakage**  
   Memory-based inference attacks between co-resident VMs. [3]
@@ -82,7 +82,7 @@
 # Layer 4  Identity & Access Management (IAM)
 **Concerns authentication, authorization, and identity systems.**
 
-## Advanced Attacks
+## Attacks/ Threats
 
 - **OAuth Token Replay Attack**  
   Exploiting redirect URI vulnerabilities. [23]
@@ -106,7 +106,7 @@
 # Layer 5  Application & Services Security
 **Concerns SaaS, APIs, containers, and cloud applications.**
 
-## Advanced Attacks
+## Attacks/ Threats
 
 - **XML Signature Wrapping (SOAP Wrapping Attack)** [31]
 - **Server-Side Request Forgery (SSRF) in Cloud Metadata Services** [32]
@@ -127,7 +127,7 @@
 # Layer 6  Governance & Compliance
 **Concerns human factors, policies, legal and regulatory compliance.**
 
-## Advanced Threats
+## Attacks/ Threats
 
 - **Malicious Insider Data Exfiltration** [39]
 - **SLA Manipulation & Audit Weakness Exploitation**
