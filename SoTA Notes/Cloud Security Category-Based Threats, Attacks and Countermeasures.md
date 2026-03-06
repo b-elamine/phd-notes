@@ -163,7 +163,8 @@
 **[13]** [Diego Kreutz et al., _“Software-Defined Networking: A Comprehensive Survey”_, ACM SIGCOMM Computer Communication Review, 2015.](https://ieeexplore.ieee.org/abstract/document/6994333)  
 **[14]** TBF  
 **[16]** [Joel Reardon et al "SoK: Secure Data Deletion", 2013 IEEE Symposium on Security and Privacy (SP '13).](https://dl.acm.org/doi/10.1109/SP.2013.28)  
-**[17]** [Stefanov et al., _“Path ORAM: An Extremely Simple Oblivious RAM Protocol”_, ACM CCS, 2013. ](https://dl.acm.org/doi/abs/10.1145/3177872) **[18]** [Arvind Narayanan, Vitaly Shmatikov, _“De-anonymizing Social Networks”_, IEEE Symposium on Security and Privacy, 2009.  ](https://ieeexplore.ieee.org/abstract/document/5207644)  
+**[17]** [Stefanov, _“Path ORAM: An Extremely Simple Oblivious RAM Protocol”_, ACM CCS, 2013. ](https://dl.acm.org/doi/abs/10.1145/3177872)  
+**[18]** [Arvind Narayanan, Vitaly Shmatikov, _“De-anonymizing Social Networks”_, IEEE Symposium on Security and Privacy, 2009.  ](https://ieeexplore.ieee.org/abstract/document/5207644)  
 **[19]** [Craig Gentry, _“Fully Homomorphic Encryption Using Ideal Lattices”_, STOC, 2009.  ](https://dl.acm.org/doi/abs/10.1145/1536414.1536440)  
 **[20]** [Amit Sahai, Brent Waters, _“Fuzzy Identity-Based Encryption”_, EUROCRYPT, 2005. (Foundation of ABE)  ](https://link.springer.com/chapter/10.1007/11426639_27)  
 **[21]** [NIST, _“NIST Special Publication 800-57: Recommendation for Key Management”_. ](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)  
