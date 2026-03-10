@@ -1,10 +1,11 @@
 
 ---
-
+***This doc summarize foundational threats/attacks and countermeasures landscape widely surveys + Some state of the art novel attacks and countermeasures 2019-Present***
+___
 # Layer 1  Compute & Virtualization Security
 **Concerns hardware, data centers, hypervisors, and virtual machines.**
 
-## Advanced Attacks
+## Attacks
 
 - **VM Escape Attacks**  
   Exploiting hypervisor vulnerabilities to escape guest VM and access host system. [1][2]
@@ -16,6 +17,8 @@
   Publishing infected VM images in public repositories. [6]
 - **Blue Pill Hypervisor Rootkits**  
   Installing stealth hypervisors below the OS layer. [7]
+
+Novel Attacks
 
 ## Countermeasures
 
@@ -143,9 +146,81 @@
 - Behavioral insider threat detection [39]  
 - Cloud trust and reputation management models [25]
 
+___
+# SoTA novel Attacks and countermeasures (2019–Present)
+
+
+## Layer 1 : Compute & Virtualization Security
+
+| #    | Authors & Year       | Title                                                                | Type           | Contribution                                                              |
+| ---- | -------------------- | -------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------- |
+| [46] | Ren et al., 2025     | Breaking Isolation: Cross-Domain Attacks on Hypervisors              | Attack         | Guest memory reuse as exploitation primitive to bypass ASLR.              |
+| [47] | Chen et al., 2025    | HyperHammer: Breaking Free from KVM-Enforced Isolation               | Attack         | Rowhammer bit-flip escapes KVM isolation from inside guest VM.            |
+| [48] | Bulekov et al., 2024 | HyperPill: Fuzzing Hypervisors via Hardware Virtualization Interface | Countermeasure | DMA-aware fuzzer proactively discovers hypervisor device vulnerabilities. |
+
 ---
 
-# References
+## Layer 2 : Network & Communication Security
+
+| #    | Authors & Year            | Title                                                             | Type           | Contribution                                                         |
+| ---- | ------------------------- | ----------------------------------------------------------------- | -------------- | -------------------------------------------------------------------- |
+| [49] | ACM SIGMETRICS, 2025      | Exploiting Kubernetes Autoscaling for EDoS                        |  Attack        | MDP model optimizes financial exhaustion of K8s autoscaling targets. |
+| [50] | Sengupta et al., 2020     | A Survey of Moving Target Defenses for Network Security           | Countermeasure | Formal notation quantifies SDN-based MTD attack surface reduction.   |
+| [51] | Lalropuia & Khaitan, 2021 | Availability Analysis of Cloud under EDoS: A Semi-Markov Approach | Countermeasure | Semi-Markov model derives cloud availability thresholds under EDoS.  |
+
+---
+
+## Layer 3 : Data Protection & Privacy
+
+| #    | Authors & Year         | Title                                                                  | Type           | Contribution                                                               |
+| ---- | ---------------------- | ---------------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------- |
+| [52] | Hoover et al., 2024    | Leakage-Abuse Attacks Against Structured Encryption for SQL            |  Attack        | Cross-column frequency leakage recovers plaintexts from encrypted SQL.     |
+| [53] | Demertzis et al., 2020 | SEAL: Attack Mitigation for Encrypted Databases via Adjustable Leakage | Countermeasure | Tunable leakage budget minimizes inference attack success at low overhead. |
+
+---
+
+## Layer 4 : Identity & Access Management (IAM)
+
+| #    | Authors & Year       | Title                                                          | Type    | Contribution                                                       |
+| ---- | -------------------- | -------------------------------------------------------------- | ------- | ------------------------------------------------------------------ |
+| [54] | Fett et al., 2022    | Formal Security Analysis of the OpenID Financial-grade API 2.0 |  Attack | Formal WIM analysis uncovers browser-swapping attack in FAPI 2.0.  |
+| [55] | Jannett et al., 2022 | DISTINCT: Identity Theft Using In-Browser Communications       | Attack  | postMessage API exploited as covert channel for OAuth token theft. |
+
+---
+
+## Layer 5 : Application & Services Security
+
+| #    | Authors & Year                 | Title                                               | Type   | Contribution                                                                    |
+| ---- | ------------------------------ | --------------------------------------------------- | ------ | ------------------------------------------------------------------------------- |
+| [56] | Palo Alto Unit 42, 2021        | SSRF Exposes Data Across Major Cloud Providers      | Attack | 56% of vulnerable cloud instances leak IAM credentials via SSRF.                |
+| [57] | Pastrana & Suarez-Tangil, 2019 | A First Look at the Crypto-Mining Malware Ecosystem | Attack | Empirical mapping of cryptomining infection vectors and cloud credential abuse. |
+
+---
+
+## Layer 6 : Governance & Compliance
+
+| #    | Authors & Year          | Title                                                      | Type            | Contribution                                                                    |
+| ---- | ----------------------- | ---------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- |
+| [58] | Silic & Back, 2019      | Shadow IT — A View from Behind the Curtain                 | Attack          | Formal model quantifies governance gaps driving unsanctioned cloud adoption.    |
+| [59] | Xiao et al., 2023       | Robust Insider Threat Detection Using Graph Neural Network | Countermeasure  | GNN captures multi-hop access dependencies undetectable by flat ML models.      |
+| [60] | Campanelli et al., 2018 | ZKP-Based Verifiable Audit for Outsourced Cloud Data       |  Countermeasure | Composable ZKP proofs verify cloud compliance without exposing underlying data. |
+
+___
+
+
+***Summary of Novel Papers From 2019-peresent*** : 
+
+| Layer     | Attacks  | Countermeasures | Total  |
+| --------- | -------- | --------------- | ------ |
+| L1        | [46][47] | [48]            | 3      |
+| L2        | [49]     | [50][51]        | 3      |
+| L3        | [52]     | [53]            | 2      |
+| L4        | [54][55] |                 | 2      |
+| L5        | [56][57] |                 | 2      |
+| L6        | [58]     | [59][60]        | 3      |
+| **Total** | **9**    | **6**           | **15** |
+
+---
 
 # References
 
@@ -190,6 +265,19 @@
 **[42]** TBF  
 **[43]** [Guy Zyskind, Oz Nathan, Alex Pentland, _“Decentralizing Privacy: Using Blockchain to Protect Personal Data”_, IEEE Security & Privacy Workshops, 2015.  ](http://ieeexplore.ieee.org/document/7163223)  
 **[44]** [Keiko Hashizume et al., _“An Analysis of Security Issues for Cloud Computing”_, Journal of Cloud Computing, 2013.  ](https://link.springer.com/article/10.1186/1869-0238-4-5)  
-**[45]** TBF
-
----
+**[45]** TBF  
+[46] [Ren et al., *"Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks"*, arXiv, 2025](https://arxiv.org/abs/2512.04260)  
+[47] [Chen et al., *"HyperHammer: Breaking Free from KVM-Enforced Isolation"*, ASPLOS, 2025](https://yuval.yarom.org/pdfs/ChenZZSYGYW25.pdf)  
+[48] [Bulekov et al., *"HyperPill: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface"*, USENIX Security, 2024](https://www.usenix.org/system/files/usenixsecurity24-bulekov.pdf)  
+[49] [Grooten et al., *"Exploiting Kubernetes Autoscaling for Economic Denial of Sustainability"*, ACM SIGMETRICS / POMACS, 2025](https://dl.acm.org/doi/10.1145/3727114)  
+[50] [Sengupta et al., *"A Survey of Moving Target Defenses for Network Security"*, IEEE Communications Surveys & Tutorials, 2020](https://ieeexplore.ieee.org/document/9016033)  
+[51] [Lalropuia & Khaitan, *"Availability and Reliability Analysis of Cloud Computing under EDoS Attack: A Semi-Markov Approach"*, Cluster Computing, 2021](https://link.springer.com/article/10.1007/s10586-021-03257-9)  
+[52] [Hoover et al., *"Leakage-Abuse Attacks Against Structured Encryption for SQL"*, USENIX Security, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/hoover)  
+[53] [Demertzis et al., *"SEAL: Attack Mitigation for Encrypted Databases via Adjustable Leakage"*, USENIX Security, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/demertzis)  
+[54] [Fett et al., *"Formal Security Analysis of the OpenID Financial-grade API 2.0"*, OpenID Foundation, 2022](https://openid.net/wordpress-content/uploads/2022/12/Formal-Security-Analysis-of-FAPI-2.0_FINAL_2022-10.pdf)  
+[55] [Jannett et al., *"DISTINCT: Identity Theft Using In-Browser Communications"*, ACM CCS, 2022](https://dl.acm.org/doi/10.1145/3548606.3560692)  
+[56] [Palo Alto Unit 42, *"Server-Side Request Forgery Exposes Data of Technology, Industrial, and Media Organizations"*, 2021](https://unit42.paloaltonetworks.com/server-side-request-forgery-exposes-data-of-technology-industrial-and-media-organizations/)  
+[57] [Pastrana & Suarez-Tangil, *"A First Look at the Crypto-Mining Malware Ecosystem: A Decade of Unrestricted Growth"*, ACM IMC, 2019](https://dl.acm.org/doi/10.1145/3355369.3355576)  
+[58] [Silic & Back, *"Shadow IT — A View from Behind the Curtain"*, Computers & Security, 2019](https://www.sciencedirect.com/science/article/pii/S0167404814001540)  
+[59] [Xiao et al., *"Robust Anomaly-Based Insider Threat Detection Using Graph Neural Network"*, IEEE TNSM, 2023](https://ieeexplore.ieee.org/document/9950701)  
+[60] [Campanelli et al., *"LegoSNARK: Modular Design and Composition of Succinct Zero-Knowledge Proofs"*, ACM CCS, 2019](https://dl.acm.org/doi/10.1145/3319535.3339820)  
