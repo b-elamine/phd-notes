@@ -225,7 +225,7 @@ ___
 # Summarizing : 
 
 ***Table Foundational Attacks and Countermeasures Summary Table : 
-![fig1](foundational-attacks-countermeasures.png)
+![fig1](../src/foundational-attacks-countermeasures.png)
 
 ***Novel Attacks and Countermeasures 2019-Present, Summary Table***
 ![fig2](../src/novel-attacks-countermeasures.jpg)
