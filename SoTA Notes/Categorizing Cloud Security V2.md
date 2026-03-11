@@ -190,20 +190,20 @@ ___
 
 ## Layer 5 : Application & Services Security
 
-| #    | Authors & Year                 | Title                                               | Type   | Contribution                                                                    |
-| ---- | ------------------------------ | --------------------------------------------------- | ------ | ------------------------------------------------------------------------------- |
-| [56] | Palo Alto Unit 42, 2021        | SSRF Exposes Data Across Major Cloud Providers      | Attack | 56% of vulnerable cloud instances leak IAM credentials via SSRF.                |
-| [57] | Pastrana & Suarez-Tangil, 2019 | A First Look at the Crypto-Mining Malware Ecosystem | Attack | Empirical mapping of cryptomining infection vectors and cloud credential abuse. |
+| #    | Authors & Year                 | Title                                               | Type    | Contribution                                                                    |
+| ---- | ------------------------------ | --------------------------------------------------- | ------- | ------------------------------------------------------------------------------- |
+| [56] | Palo Alto Unit 42, 2021        | SSRF Exposes Data Across Major Cloud Providers      |  Attack | 56% of vulnerable cloud instances leak IAM credentials via SSRF.                |
+| [57] | Pastrana & Suarez-Tangil, 2019 | A First Look at the Crypto-Mining Malware Ecosystem | Attack  | Empirical mapping of cryptomining infection vectors and cloud credential abuse. |
 
 ---
 
 ## Layer 6 : Governance & Compliance
 
-| #    | Authors & Year          | Title                                                      | Type            | Contribution                                                                    |
-| ---- | ----------------------- | ---------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- |
-| [58] | Silic & Back, 2019      | Shadow IT — A View from Behind the Curtain                 | Attack          | Formal model quantifies governance gaps driving unsanctioned cloud adoption.    |
-| [59] | Xiao et al., 2023       | Robust Insider Threat Detection Using Graph Neural Network | Countermeasure  | GNN captures multi-hop access dependencies undetectable by flat ML models.      |
-| [60] | Campanelli et al., 2018 | ZKP-Based Verifiable Audit for Outsourced Cloud Data       |  Countermeasure | Composable ZKP proofs verify cloud compliance without exposing underlying data. |
+| #    | Authors & Year          | Title                                                      | Type           | Contribution                                                                    |
+| ---- | ----------------------- | ---------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------- |
+| [58] | Silic & Back, 2019      | Shadow IT : A View from Behind the Curtain                 | Attack         | Formal model quantifies governance gaps driving unsanctioned cloud adoption.    |
+| [59] | Xiao et al., 2023       | Robust Insider Threat Detection Using Graph Neural Network | Countermeasure | GNN captures multi-hop access dependencies undetectable by flat ML models.      |
+| [60] | Campanelli et al., 2018 | ZKP-Based Verifiable Audit for Outsourced Cloud Data       | Countermeasure | Composable ZKP proofs verify cloud compliance without exposing underlying data. |
 
 ___
 
@@ -222,6 +222,14 @@ ___
 
 ---
 
+# Summarizing : 
+
+***Table Foundational Attacks and Countermeasures Summary Table : 
+![fig1](foundational-attacks-countermeasures.png)
+
+***Novel Attacks and Countermeasures 2019-Present, Summary Table***
+![fig2](../src/novel-attacks-countermeasures.jpg)
+___
 # References
 
 **[1]** [Abdul Azim Ahmed Ali, _“Virtual Machine Escapes”_, Technical Article, 2013.](https://www.researchgate.net/publication/255791810_Virtual_Machine_Escapes)  
