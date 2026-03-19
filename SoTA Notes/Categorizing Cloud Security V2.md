@@ -18,8 +18,6 @@ ___
 - **Blue Pill Hypervisor Rootkits**  
   Installing stealth hypervisors below the OS layer. [7]
 
-Novel Attacks
-
 ## Countermeasures
 
 - Hypervisor hardening and microkernel-based VMMs [2]  
@@ -35,10 +33,10 @@ Novel Attacks
 
 ## Attacks / Threats
 
-- **EDoS (Economic Denial of Sustainability)**  
-  Triggering auto-scaling to financially exhaust cloud consumers. [9]
 - **Cross-VM Packet Sniffing**  
   Exploiting virtual switch misconfigurations. [10]
+-  **EDoS (Economic Denial of Sustainability)**  
+Triggering auto-scaling to financially exhaust cloud consumers. [9]
 - **ARP Spoofing in Virtual Networks**  
   Man-in-the-cloud attack via network poisoning. [11]
 - **Wormhole Attacks (Cloud-Connected IoT)**  
