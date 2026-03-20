@@ -6,13 +6,19 @@
 - Step 1 : 
 	- "What is being attacked, defended, or checked?"
 		- The answer define a category between 1 to 6
+	
 - Step 2 :
 	- Step 1 decided 1-5 but if is a "CHECK":
 		- About technical misconfig or vulnerability ? --> keep the same layer
 		-  System wide rules, regulations or compliance ? --> category 6 
+	
 - Shortcup : 
 	-Whats is touched or affected ? --> 1-5, unless it is a rule --> 6
-
+	
+	
+- One line decision : 
+	- “What is being attacked, defended, or checked?
+	VM → Compute | Network → Network | Data → Data Protection | Identity → IAM | App logic → Application | Rules/policies → if technical misconfig → layer 1–5, else → Governance & Compliance (6)”
 ___
 #  1  Compute & Virtualization Security
 **Concerns hardware, data centers, hypervisors, and virtual machines.**
