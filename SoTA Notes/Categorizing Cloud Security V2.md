@@ -1,8 +1,20 @@
 
 ---
 ***This doc summarize foundational threats/attacks and countermeasures landscape widely surveys + Some state of the art novel attacks and countermeasures 2019-Present***
+
+***Important Note :*** For better and clearer Categorization of attacks and/or defense the question we ask is important : 
+- Step 1 : 
+	- "What is being attacked, defended, or checked?"
+		- The answer define a category between 1 to 6
+- Step 2 :
+	- Step 1 decided 1-5 but if is a "CHECK":
+		- About technical misconfig or vulnerability ? --> keep the same layer
+		-  System wide rules, regulations or compliance ? --> category 6 
+- Shortcup : 
+	-Whats is touched or affected ? --> 1-5, unless it is a rule --> 6
+
 ___
-# Layer 1  Compute & Virtualization Security
+#  1  Compute & Virtualization Security
 **Concerns hardware, data centers, hypervisors, and virtual machines.**
 
 ## Attacks
@@ -28,7 +40,7 @@ ___
 
 ---
 
-# Layer 2  Network & Communication Security
+#  2  Network & Communication Security
 **Concerns data in transit and cloud networking infrastructure.**
 
 ## Attacks / Threats
@@ -54,7 +66,7 @@ Triggering auto-scaling to financially exhaust cloud consumers. [9]
 
 ---
 
-# Layer 3  Data Protection & Privacy
+#  3  Data Protection & Privacy
 **Concerns confidentiality, integrity, and privacy of stored and processed data.**
 
 ## Attacks/ Threats
@@ -80,7 +92,7 @@ Triggering auto-scaling to financially exhaust cloud consumers. [9]
 
 ---
 
-# Layer 4  Identity & Access Management (IAM)
+#  4  Identity & Access Management (IAM)
 **Concerns authentication, authorization, and identity systems.**
 
 ## Attacks/ Threats
@@ -104,7 +116,7 @@ Triggering auto-scaling to financially exhaust cloud consumers. [9]
 
 ---
 
-# Layer 5  Application & Services Security
+#  5  Application & Services Security
 **Concerns SaaS, APIs, containers, and cloud applications.**
 
 ## Attacks/ Threats
@@ -125,7 +137,7 @@ Triggering auto-scaling to financially exhaust cloud consumers. [9]
 
 ---
 
-# Layer 6  Governance & Compliance
+#  6  Governance & Compliance
 **Concerns human factors, policies, legal and regulatory compliance.**
 
 ## Attacks/ Threats
