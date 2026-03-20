@@ -12,7 +12,7 @@
 		- About technical misconfig or vulnerability ? --> keep the same layer
 		-  System wide rules, regulations or compliance ? --> category 6 
 	
-- Shortcup : 
+- Shortcut : 
 	-Whats is touched or affected ? --> 1-5, unless it is a rule --> 6
 	
 	
