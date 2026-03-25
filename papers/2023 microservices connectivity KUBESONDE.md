@@ -20,7 +20,7 @@
 ___
 ### KUBESONDE source code important notes : 
 
-***- `crd/ `: controller, language GO, it runs as a deployment inside the k8s cluster***
+***- `crd/ `: controller, language GO, it runs as a deployment inside the k8s cluster***  
 ***- `frontend/` :  Frontend, developed in Typescript / React, can be executed locally "npm run dev"***
 
 ___
@@ -56,9 +56,9 @@ ___
 
 ___
 ####  Data Flow Step by Step Notes : 
-***1 - Creating CRD definition, roles and the deployment of the controller `kubectl apply -f kubesonde.yaml`)***
-***2 - Call Reconcile, and lunching Dispatcher, EventListener, RecursiveProbing and the Monitor `kubectl apply -f probe.yaml`***
-***3 - EventListener launches k8s informers***
+***1 - Creating CRD definition, roles and the deployment of the controller `kubectl apply -f kubesonde.yaml`)***  
+***2 - Call Reconcile, and lunching Dispatcher, EventListener, RecursiveProbing and the Monitor `kubectl apply -f probe.yaml`***  
+***3 - EventListener launches k8s informers***  
 ```
 For each RunningPOD in TargetedNameSpace:
 		a. AddPodEvent() 
@@ -70,15 +70,15 @@ For each RunningPOD in TargetedNameSpace:
 		e. Probes added to dispatcher queue -high priority-
 		f. Services+outside probes add to storage only (later recusrsiveProbing)
 ```
-***4 - Dispatcher infinite loop : take a probe from queue call inner.runRemoteCommand() to run nmap inside the debugger container, return 0/1 and stored in ProbeOutputItem in state***
-***5 - RecursiveProbing every 20 secs***
+***4 - Dispatcher infinite loop : take a probe from queue call inner.runRemoteCommand() to run nmap inside the debugger container, return 0/1 and stored in ProbeOutputItem in state***  
+***5 - RecursiveProbing every 20 secs***  
 ```
 # Continuously revalidate network state
 Every 20 sec do : 
 	if queue.isEmpty():
 		re-queue all probes low priority  
 ```
-***6 - Monitor Controller fire every 10 secs***
+***6 - Monitor Controller fire every 10 secs***  
 ```
 Every 10 sec do: 
 	Exec netstat inside each debugger container
