@@ -144,26 +144,26 @@
 
 ## References
 
-| # | Title | Authors | Venue / Date |
-|---|---|---|---|
-| [1] | VENOM: Virtualized Environment Neglected Operations Manipulation | Jason Geffner, CrowdStrike | CrowdStrike Research Blog, May 2015 |
-| [2] | DRAKVUF: Stealthy Observation System | Tamas K Lengyel | IEEE Security & Privacy Workshop on Offensive Technologies (WOOT), 2014 |
-| [3] | Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks | Ren et al. | arXiv, 2025 |
-| [4] | HyperHammer: Breaking Free from KVM-Enforced Isolation | Chen et al. | ASPLOS, 2025 |
-| [5] | A Virtual Machine Introspection Based Architecture for Intrusion Detection | Tal Garfinkel, Mendel Rosenblum | NDSS, 2003 |
-| [6] | Last-Level Cache Side-Channel Attacks are Practical | Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby Lee | IEEE S&P (Oakland), 2015 |
-| [7] | FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack | Yuval Yarom, Katrina Falkner | USENIX Security, 2014 |
-| [8] | CacheBleed: A Timing Attack on OpenSSL Constant-Time RSA | Yuval Yarom, Daniel Genkin, Nadia Heninger | Journal of Cryptographic Engineering, 2017 |
-| [9] | Spectre Attacks: Exploiting Speculative Execution | Paul Kocher et al. | IEEE S&P, 2019 |
-| [10] | Cache Allocation Technology — Specification | Intel Corporation | Intel Architecture Software Developer Manual, Vol. 3B, 2016 |
-| [11] | Trusted Platform Module Library Specification, Family "2.0" | Trusted Computing Group (TCG) | TCG Specification, 2016 (rev. 1.59, 2023) |
-| [12] | Architectural Support for Hypervisor-Secure Virtualization | Jakub Szefer, Ruby B. Lee | ASPLOS, 2012 |
-| [13] | AMD SEV-SNP: Strengthening VM Isolation with Integrity Protection and More | AMD Corporation | AMD White Paper, 2020 |
-| [14] | HyperPill: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface | Alexander Bulekov et al. | USENIX Security, 2024 |
-| [15] | NIST SP 800-190: Application Container Security Guide | NIST | NIST Special Publication, 2017 |
-| [16] | Nitro: Hardware-based System Call Tracing for Virtual Machines | Jonas Pfoh, Christian Schneider, Claudia Eckert | ACNS, 2011 |
-| [17] | Subverting Vista Kernel for Fun and Profit (Blue Pill) | Joanna Rutkowska | Black Hat USA, 2006 |
-| [18] | SubVirt: Implementing Malware with Virtual Machines | Samuel T. King, Peter M. Chen | IEEE S&P (Oakland), 2006 |
-| [19] | LoJax: First UEFI Rootkit Found in the Wild, Courtesy of the Sednit Group | ESET Research | ESET White Paper, 2018 |
-| [20] | AMD SEV-SNP: Strengthening VM Isolation with Integrity Protection | AMD Corporation | AMD White Paper, 2020 |
-| [21] | Attacking Intel Trusted Execution Technology | Rafal Wojtczuk, Joanna Rutkowska | Black Hat DC, 2009 |
+| #    | Title                                                                                      | Authors                                                    | Venue / Date                                                            |
+| ---- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [1]  | VENOM: Virtualized Environment Neglected Operations Manipulation                           | Jason Geffner, CrowdStrike                                 | CrowdStrike Research Blog, May 2015                                     |
+| [2]  | DRAKVUF: Stealthy Observation System                                                       | Tamas K Lengyel                                            | IEEE Security & Privacy Workshop on Offensive Technologies (WOOT), 2014 |
+| [3]  | Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks  | Ren et al.                                                 | arXiv, 2025                                                             |
+| [4]  | HyperHammer: Breaking Free from KVM-Enforced Isolation                                     | Chen et al.                                                | ASPLOS, 2025                                                            |
+| [5]  | A Virtual Machine Introspection Based Architecture for Intrusion Detection                 | Tal Garfinkel, Mendel Rosenblum                            | NDSS, 2003                                                              |
+| [6]  | Last-Level Cache Side-Channel Attacks are Practical                                        | Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby Lee | IEEE S&P (Oakland), 2015                                                |
+| [7]  | FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack                   | Yuval Yarom, Katrina Falkner                               | USENIX Security, 2014                                                   |
+| [8]  | CacheBleed: A Timing Attack on OpenSSL Constant-Time RSA                                   | Yuval Yarom, Daniel Genkin, Nadia Heninger                 | Journal of Cryptographic Engineering, 2017                              |
+| [9]  | Spectre Attacks: Exploiting Speculative Execution                                          | Paul Kocher et al.                                         | IEEE S&P, 2019                                                          |
+| [10] | Cache Allocation Technology — Specification                                                | Intel Corporation                                          | Intel Architecture Software Developer Manual, Vol. 3B, 2016             |
+| [11] | Trusted Platform Module Library Specification, Family "2.0"                                | Trusted Computing Group (TCG)                              | TCG Specification, 2016 (rev. 1.59, 2023)                               |
+| [12] | Architectural Support for Hypervisor-Secure Virtualization                                 | Jakub Szefer, Ruby B. Lee                                  | ASPLOS, 2012                                                            |
+| [13] | AMD SEV-SNP: Strengthening VM Isolation with Integrity Protection and More                 | AMD Corporation                                            | AMD White Paper, 2020                                                   |
+| [14] | HyperPill: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface | Alexander Bulekov et al.                                   | USENIX Security, 2024                                                   |
+| [15] | NIST SP 800-190: Application Container Security Guide                                      | NIST                                                       | NIST Special Publication, 2017                                          |
+| [16] | Nitro: Hardware-based System Call Tracing for Virtual Machines                             | Jonas Pfoh, Christian Schneider, Claudia Eckert            | ACNS, 2011                                                              |
+| [17] | Subverting Vista Kernel for Fun and Profit (Blue Pill)                                     | Joanna Rutkowska                                           | Black Hat USA, 2006                                                     |
+| [18] | SubVirt: Implementing Malware with Virtual Machines                                        | Samuel T. King, Peter M. Chen                              | IEEE S&P (Oakland), 2006                                                |
+| [19] | LoJax: First UEFI Rootkit Found in the Wild, Courtesy of the Sednit Group                  | ESET Research                                              | ESET White Paper, 2018                                                  |
+| [20] | AMD SEV-SNP: Strengthening VM Isolation with Integrity Protection                          | AMD Corporation                                            | AMD White Paper, 2020                                                   |
+| [21] | Attacking Intel Trusted Execution Technology                                               | Rafal Wojtczuk, Joanna Rutkowska                           | Black Hat DC, 2009                                                      |
